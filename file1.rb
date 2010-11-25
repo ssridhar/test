@@ -1,5 +1,7 @@
 class Cls1
 	def method1()
-		puts "hello hello"
+		puts "Your Name: "
+		name = gets
+		puts "hello #{name}"
 	end
 end
